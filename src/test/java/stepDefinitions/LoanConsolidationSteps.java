@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,15 +14,6 @@ import org.testng.Assert;
 public class LoanConsolidationSteps {
 
     public WebDriver driver;
-
-//    @Before
-//    public void browserSetup(){
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//        driver.get("https://creditmatcher.experian.co.uk/loans/search?LoanDetails.Purpose=DebtConsolidation");
-//        driver.manage().window().maximize();
-//
-//    }
 
     @After
     public void tearDown(){
